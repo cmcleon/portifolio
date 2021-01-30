@@ -147,7 +147,7 @@ header{
 
 .banner button{
     font-family: var(--font-action);
-    color: #ffffff;
+    color: white;
     letter-spacing: .1rem;
     text-transform: uppercase;
     background: #FDC830;  
@@ -159,11 +159,10 @@ header{
     cursor: pointer;
     opacity: 0;
     animation: moveBanner 2s 0.9s forwards;
+    
 }
 
-.banner button:hover{
-    color: black;
-}
+
 
 @keyframes moveBanner{
     0%{
@@ -183,7 +182,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
-    z-index: 150;
+    z-index: 90;
 }
 
 .show-menu .sidebar{
@@ -583,6 +582,7 @@ header{
     border: none;
     border-radius: 5px;
     padding: 0.3rem;
+    background-color:rgba(211, 140, 7, 0.418);
 }
 
 .sessao-orcamento button{
